@@ -3,61 +3,61 @@ import { Code, Database, Server, Globe } from "lucide-react";
 import { motion } from "motion/react";
 
 const Skills = () => {
-  const skills = {
-    frontend: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Angular",
-      "Vue.js",
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "Bootstrap",
-    ],
-    backend: ["Node.js", "C#"],
-    database: ["MySQL", "Redis", "MSSQL"],
-    tools: ["Docker", "AWS", "Git", "GraphQL"],
-    frontendUrl: ["../../../"],
-  };
+  // const skills = {
+  //   frontend: [
+  //     "HTML",
+  //     "CSS",
+  //     "JavaScript",
+  //     "Angular",
+  //     "Vue.js",
+  //     "React",
+  //     "TypeScript",
+  //     "Tailwind CSS",
+  //     "Bootstrap",
+  //   ],
+  //   backend: ["Node.js", "C#"],
+  //   database: ["MySQL", "Redis", "MSSQL"],
+  //   tools: ["Docker", "AWS", "Git", "GraphQL"],
+  //   frontendUrl: ["../../../"],
+  // };
 
   const frontend = [
-    { name: "HTML", src: "/html5-logo.svg" },
-    { name: "CSS", src: "/css3-logo.svg" },
+    { name: "HTML", src: "/jpb-portfolio/html5-logo.svg" },
+    { name: "CSS", src: "/jpb-portfolio/css3-logo.svg" },
     {
       name: "JavaScript",
-      src: "/javascript-logo.svg",
+      src: "/jpb-portfolio/javascript-logo.svg",
     },
-    { name: "Angular", src: "/angular-logo.svg" },
-    { name: "Vue.js", src: "/vue-logo.svg" },
-    { name: "React", src: "/react-logo.svg" },
+    { name: "Angular", src: "/jpb-portfolio/angular-logo.svg" },
+    { name: "Vue.js", src: "/jpb-portfolio/vue-logo.svg" },
+    { name: "React", src: "/jpb-portfolio/react-logo.svg" },
     {
       name: "TypeScript",
-      src: "/typescript-logo.svg",
+      src: "/jpb-portfolio/typescript-logo.svg",
     },
     {
       name: "Tailwind CSS",
-      src: "/tailwind-logo.svg",
+      src: "/jpb-portfolio/tailwind-logo.svg",
     },
-    { name: "Bootstrap", src: "/bootstrap-logo.svg" },
+    { name: "Bootstrap", src: "/jpb-portfolio/bootstrap-logo.svg" },
   ];
 
   const backend = [
-    { name: "Node.js", src: "/nodejs-logo.svg" },
-    { name: "C#", src: "/csharp-logo.svg" },
+    { name: "Node.js", src: "/jpb-portfolio/nodejs-logo.svg" },
+    { name: "C#", src: "/jpb-portfolio/csharp-logo.svg" },
   ];
 
   const database = [
-    { name: "MySQL", src: "/mysql-logo.svg" },
-    { name: "Redis", src: "/redis-logo.svg" },
-    { name: "MSSQL", src: "/mssql-logo.svg" },
+    { name: "MySQL", src: "/jpb-portfolio/mysql-logo.svg" },
+    { name: "Redis", src: "/jpb-portfolio/redis-logo.svg" },
+    { name: "MSSQL", src: "/jpb-portfolio/mssql-logo.svg" },
   ];
 
   const tools = [
-    { name: "Docker", src: "/docker-logo.svg" },
-    { name: "AWS", src: "/aws-logo.svg" },
-    { name: "Git", src: "/git-logo.svg" },
-    { name: "GraphQL", src: "/graphql-logo.svg" },
+    { name: "Docker", src: "/jpb-portfolio/docker-logo.svg" },
+    { name: "AWS", src: "/jpb-portfolio/aws-logo.svg" },
+    { name: "Git", src: "/jpb-portfolio/git-logo.svg" },
+    { name: "GraphQL", src: "/jpb-portfolio/graphql-logo.svg" },
   ];
 
   return (
