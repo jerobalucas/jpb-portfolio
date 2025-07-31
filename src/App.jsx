@@ -19,7 +19,10 @@ function App() {
         <Route index element={<Home />} />
         <Route path='*' element={<Navigate to="/" replace />} />
       </Route>
-    )
+    ),
+    {
+      basename: "/jpb-portfolio"
+    }
   )
 
   return <RouterProvider router={router} />
